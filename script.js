@@ -16,7 +16,7 @@ function setGradient() {
 	css2.textContent = "Current CSS background: "+body.style.background + ";";
 }
 
-css.textContent ="Initial CSS background: "+"background: linear-gradient(to right, "+color1.value+", "+color2.value+");";    //display first color combination
+css.textContent ="Initial CSS background colors: "+"background: linear-gradient(to right, "+color1.value+", "+color2.value+");";    //display first color combination
 
 color1.addEventListener("input", setGradient);
 
